@@ -1,0 +1,89 @@
+<p>Dear customer from COMPANY_NAME,</p>
+<p>We are <a title="China CAD Services" href="http://www.chinacadservices.com" target="_blank">China CAD Services Inc</a>, the leading CAD provider in China. We offer fast and cost competitive services that you will love once you've tried us.</p>
+<p><strong><a title="Services" href="http://www.chinacadservices.com/services.html" target="_blank">Services</a>:</strong></p>
+<ul>
+<li>Fast and professional services. (Of course we speak English)</li>
+<li>3D modeling services in SoildWorks, AutoCAD Architecture and Revit</li>
+<li>Overnight, 3, 5, 10, 30-Day Turnarounds</li>
+<li>Fixed Price Per Sheet (Any Content)</li>
+<li>No hourly rate no hidden fees</li>
+<li>Guaranteed Quality</li>
+<li>100% Dimensionally Accurate</li>
+<li>AutoCAD or Microstation</li>
+<li>German Layering names and no Language problem when you open DWG/DGN files, so it look like the jobs are done inside German.</li>
+<li>3-round Quality Control Procedures</li>
+</ul>
+<p><strong><a title="Price List" href="http://www.chinacadservices.com/price-list.html" target="_blank">Prices</a>:</strong></p>
+
+<table border="1">
+<tbody>
+<tr>
+<td><strong>Sheet Size</strong></td>
+<td><strong>Price Per Sheet</strong></td>
+</tr>
+<tr>
+<td>A4</td>
+<td>EUR 10.00</td>
+
+</tr>
+<tr>
+<td>A3</td>
+<td>EUR 20.00</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>EUR 36.00</td>
+</tr>
+<tr>
+<td>A1</td>
+<td>EUR 40.00</td>
+</tr>
+<tr>
+<td>A0</td>
+<td>EUR 50.00</td>
+</tr>
+</tbody>
+</table>
+<p><a title="Technologies" href="http://www.chinacadservices.com/services.html"><strong>Technologies</strong></a>:</p>
+<ul>
+<li>Basic CAD</li>
+<ul>
+<li>Dimensionally accurate CAD drafting</li>
+<li>AIA Layering Standards</li>
+<li>Matches original documents exactly</li>
+</ul>
+<li>Markup Docs</li>
+<ul>
+<li>Paste-ups, redlines, sketches</li>
+<li>Custom layering, fonts, title blocks</li>
+<li>Design development documents</li>
+</ul>
+<li>Custom Services</li>
+<ul>
+<li>Custom layering standards, fonts, backgrounds, blocks, title blocks</li>
+<li>Matches original documents exactly</li>
+</ul>
+<li>Maps and Topos</li>
+<ul>
+<li>Custom layering standards</li>
+<li>Overly original documents exactly</li>
+<li>True CAD text</li>
+</ul>
+<li>3D Modeling Services</li>
+<ul>
+<li>SolidWorks</li>
+<li>AutoCAD Architecture</li>
+<li>Revit</li>
+</ul>
+<li>Other Services</li>
+<ul>
+<li><a title="Price List" href="http://www.chinacadservices.com/price-list.html" target="_blank">Check out our full listing here.</a></li>
+</ul>
+</ul>
+<p><br />Simply reply to this email for a free sample, no strings attached.</p>
+<p>We look forward to your business.</p>
+<p>&nbsp;</p>
+<p><strong>SENDER_NAME</strong></p>
+<p>Co-Founder</p>
+<p><a title="china cad" href="http://www.chinacadservices.com" target="_blank">China CAD Services Inc.</a></p>
+<p>11-34, Chuanshen Rd., Shanghai, China</p>
