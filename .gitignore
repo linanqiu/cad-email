@@ -1,0 +1,12 @@
+*.class
+.classpath
+.settings
+.checkstyle
+.project
+
+# Package Files #
+*.war
+*.ear
+
+*.DS_Store
+*._*
