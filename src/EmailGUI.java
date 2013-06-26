@@ -91,7 +91,7 @@ public class EmailGUI {
 	 * Create the application.
 	 */
 	public EmailGUI() {
-		// redirectSystemStreams();
+		redirectSystemStreams();
 
 		initialize();
 	}
@@ -432,15 +432,15 @@ public class EmailGUI {
 							toAddresses1, companyCustomization, txtProgress);
 					txtProgress.setText("Sending Emails");
 					fireWorker.execute();
-					try {
-						fireWorker.get();
-					} catch (InterruptedException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					} catch (ExecutionException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
+					// try {
+					// fireWorker.get();
+					// } catch (InterruptedException e1) {
+					// // TODO Auto-generated catch block
+					// e1.printStackTrace();
+					// } catch (ExecutionException e1) {
+					// // TODO Auto-generated catch block
+					// e1.printStackTrace();
+					// }
 				} else {
 					txtEmailAddress.setText("Invalid Email");
 				}
@@ -454,15 +454,15 @@ public class EmailGUI {
 							txtProgress_1);
 					txtProgress_1.setText("Sending Emails");
 					fireWorker.execute();
-					try {
-						fireWorker.get();
-					} catch (InterruptedException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					} catch (ExecutionException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
+					// try {
+					// fireWorker.get();
+					// } catch (InterruptedException e1) {
+					// // TODO Auto-generated catch block
+					// e1.printStackTrace();
+					// } catch (ExecutionException e1) {
+					// // TODO Auto-generated catch block
+					// e1.printStackTrace();
+					// }
 				} else {
 					txtEmailAddress_1.setText("Invalid Email");
 				}
@@ -476,15 +476,15 @@ public class EmailGUI {
 							txtProgress_2);
 					txtProgress_2.setText("Sending Emails");
 					fireWorker.execute();
-					try {
-						fireWorker.get();
-					} catch (InterruptedException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					} catch (ExecutionException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
+					// try {
+					// fireWorker.get();
+					// } catch (InterruptedException e1) {
+					// // TODO Auto-generated catch block
+					// e1.printStackTrace();
+					// } catch (ExecutionException e1) {
+					// // TODO Auto-generated catch block
+					// e1.printStackTrace();
+					// }
 				} else {
 					txtEmailAddress_2.setText("Invalid Email");
 				}
@@ -498,15 +498,15 @@ public class EmailGUI {
 							txtProgress_3);
 					txtProgress_3.setText("Sending Emails");
 					fireWorker.execute();
-					try {
-						fireWorker.get();
-					} catch (InterruptedException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					} catch (ExecutionException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
+					// try {
+					// fireWorker.get();
+					// } catch (InterruptedException e1) {
+					// // TODO Auto-generated catch block
+					// e1.printStackTrace();
+					// } catch (ExecutionException e1) {
+					// // TODO Auto-generated catch block
+					// e1.printStackTrace();
+					// }
 				} else {
 					txtEmailAddress_3.setText("Invalid Email");
 				}

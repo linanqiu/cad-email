@@ -11,6 +11,8 @@ public class CSVParser {
 	private CSVReader csvReader;
 	private ArrayList<String> toAddresses;
 
+	public final String EMAIL_REGEX = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+
 	public CSVParser(String path) throws IOException {
 		this.path = path;
 
@@ -27,7 +29,31 @@ public class CSVParser {
 			if (nextLine[0].equals("emails")) {
 
 			} else {
-				toAddresses.add(nextLine[0]);
+
+				String emailRaw = nextLine[0];
+
+				Pattern pattern = Pattern.compile(EMAIL_REGEX);
+				Matcher matcher = pattern.matcher(emailRaw);
+
+				if (matcher.matches()) {
+					System.out.println(emailRaw);
+					toAddresses.add(emailRaw);
+				} else {
+					String emailSearch = "("
+							+ EMAIL_REGEX
+									.substring(1, EMAIL_REGEX.length() - 1)
+							+ ")" + ".*";
+
+					Pattern pattern2 = Pattern.compile(emailSearch);
+					Matcher matcher2 = pattern2.matcher(emailRaw);
+
+					if (matcher2.find()) {
+
+						System.out.println("email corrected");
+						System.out.println(matcher2.group(1));
+						toAddresses.add(matcher2.group(1));
+					}
+				}
 			}
 		}
 		System.out
